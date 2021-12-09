@@ -12,9 +12,9 @@ This tool is for date and time calculator
 def time_cal():
   #  x = time1_entry.get()
   #  y = time2_entry.get()
-    timex = datetime.strptime(time1_entry.get() ,"%Y-%m-%d %H:%M:%S")
+    timex = datetime.strptime(time1_entry.get() ,"%Y/%m/%d,%H:%M:%S")
 
-    timey = datetime.strptime(time2_entry.get() ,"%Y-%m-%d %H:%M:%S")
+    timey = datetime.strptime(time2_entry.get() ,"%Y/%m/%d,%H:%M:%S")
 
     if timey < timex:
         gap = timex - timey
