@@ -42,7 +42,7 @@ window.iconbitmap(get_path("../NEC.ico"))
 
 fontExample = tkFont.Font(family="Segoe UI", size=20)
 fontExample3 = tkFont.Font(family="Segoe UI", size=15)
-header_label = tk.Label(window, text='Time of day calculator',font=fontExample)
+header_label = tk.Label(window, text='Time Calculator  EX:2021/12/09,14:12:13',font=fontExample)
 header_label.pack()
 
 
