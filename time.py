@@ -6,7 +6,7 @@ import tkinter.font as tkFont
 
 '''
 This tool is for one day time calculator
-''''
+'''
 def time_cal():
   #  x = time1_entry.get()
   #  y = time2_entry.get()
