@@ -58,7 +58,7 @@ def raid_log():
                     gap = timex - timey
                     print("Rebuild gap" ,gap)
 
-
+#-------------------------------------------------------------------------------------------------
             #Initialization was started.
             if "Initialization was started." in line:
                 x = (line[0:19].rstrip())
